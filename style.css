@@ -1,0 +1,212 @@
+* {
+	margin:0px;
+	padding:0px;
+	outline:0;
+	border:0;
+	font-family:arial;
+	font-size:100%;
+    text-decoration: none;
+}
+
+body
+{
+    background: #eeeeee;
+}
+
+#main
+{
+    width: 920px;
+    height: 100%;
+    margin: 0px auto;
+    background: #fff;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+}
+
+#logo
+{
+    border-bottom: 1px solid #fff;
+}
+
+#menu
+{
+    width: 920px;
+    height: 42px;
+    background: #3e4f6d;
+    list-style: none;
+}
+
+#menu > li
+{
+    float: right;
+    width: 120px;
+    text-align: center;
+    display: block;
+    padding-top: 12px;    
+    height: 30px;
+    margin-left: 20px;
+}
+
+#menu > li > a
+{
+    color: #fff;
+    font-weight: bold;
+    display: block;
+}
+
+#menu > li:hover
+{
+    background: #143956;
+}
+
+#mainblock
+{
+    width: 760px;
+    min-height: 490px;
+    height: 100%;
+    background: #fff;
+    border:2px solid #2475b4;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -o-border-radius:4px;
+    margin: 0px auto;
+    margin-top: 25px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    position:relative;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+#blockimage
+{
+    position:absolute; bottom:0px; left:0px;
+}
+
+#mainblock > h1
+{
+    display: block;
+    width: 750px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #dddddd;
+    color: #2475b4;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+#footer
+{
+    width: 920px;
+    height: 26px;
+    background: #e6e6e6;
+    border-top: 1px solid #c5c5c5;
+    margin-top: 20px;
+    padding-top: 9px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#discs
+{
+    list-style: none;
+    margin-right: 35px;
+}
+
+#discs > li
+{
+    font-size: 14px;
+    float: right;
+    width: 200px;
+    height: 70px;
+    padding-top: 10px;
+    border:2px solid #ff6c00;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -o-border-radius:4px;
+    text-align: center;
+    margin-left: 25px;
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+#discs > li > span
+{
+    display: block;
+}
+
+#songs
+{
+    list-style: none;
+    margin-right: 45px;
+}
+
+#songs > li
+{
+    font-size: 14px;
+    float: right;
+    width: 200px;
+    height: 140px;
+    padding-top: 10px;
+    border:2px solid #ca0808;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -o-border-radius:4px;
+    text-align: center;
+    margin-left: 25px;
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+#songs > li > span
+{
+    display: block;
+}
+
+#online
+{
+    list-style: none;
+    margin-right: 25px;
+}
+
+#online > li
+{
+    font-size: 14px;
+    float: right;
+    width: 680px;
+    height: 75px;
+    padding-top: 15px;
+    border:2px solid #041b49;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -o-border-radius:4px;
+    text-align: center;
+    margin-left: 25px;
+    background: #fff;
+    margin-bottom: 15px;
+    padding-right: 20px;
+}
+
+#online > li > span
+{
+    float: right;
+    padding-top: 15px;
+    padding-right: 25px;
+}
+
+#online > li > img
+{
+    float: right;
+}
+
+#online > li > span > a
+{
+    color: #041b49;
+    font-size: 16px;
+    font-weight: bold;
+}
